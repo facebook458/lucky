@@ -1,0 +1,80 @@
+<!-- ভিডিও + অ্যাড Section -->
+<div class="video-section">
+
+  <!-- VIDEO 1 -->
+  <div style="margin-bottom:30px; text-align:center;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2o-r6AfzOP0" 
+        frameborder="0" allowfullscreen></iframe>
+    <!-- Adsterra Web SDK / Banner -->
+    <div id="ad-container-1" style="width:100%; height:90px; margin-top:10px;"></div>
+    <script type="text/javascript">
+        (function(){
+          var ad = document.createElement('script');
+          ad.src = "https://www.adsterra.com/your-sdk.js";
+          ad.async = true;
+          document.getElementById('ad-container-1').appendChild(ad);
+        })();
+    </script>
+  </div>
+
+  <!-- VIDEO 2 -->
+  <div style="margin-bottom:30px; text-align:center;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/PqWGSDtXnyA" 
+        frameborder="0" allowfullscreen></iframe>
+    <div id="ad-container-2" style="width:100%; height:90px; margin-top:10px;"></div>
+    <script type="text/javascript">
+        (function(){
+          var ad = document.createElement('script');
+          ad.src = "https://www.adsterra.com/your-sdk.js";
+          ad.async = true;
+          document.getElementById('ad-container-2').appendChild(ad);
+        })();
+    </script>
+  </div>
+
+  <!-- VIDEO 3 -->
+  <div style="margin-bottom:30px; text-align:center;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/K6vWNFO-cxs" 
+        frameborder="0" allowfullscreen></iframe>
+    <div id="ad-container-3" style="width:100%; height:90px; margin-top:10px;"></div>
+    <script type="text/javascript">
+        (function(){
+          var ad = document.createElement('script');
+          ad.src = "https://www.adsterra.com/your-sdk.js";
+          ad.async = true;
+          document.getElementById('ad-container-3').appendChild(ad);
+        })();
+    </script>
+  </div>
+
+  <!-- VIDEO 4 -->
+  <div style="margin-bottom:30px; text-align:center;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/n_XMGClCVyk" 
+        frameborder="0" allowfullscreen></iframe>
+    <div id="ad-container-4" style="width:100%; height:90px; margin-top:10px;"></div>
+    <script type="text/javascript">
+        (function(){
+          var ad = document.createElement('script');
+          ad.src = "https://www.adsterra.com/your-sdk.js";
+          ad.async = true;
+          document.getElementById('ad-container-4').appendChild(ad);
+        })();
+    </script>
+  </div>
+
+  <!-- VIDEO 5 -->
+  <div style="margin-bottom:30px; text-align:center;">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ndw4sclfBu0" 
+        frameborder="0" allowfullscreen></iframe>
+    <div id="ad-container-5" style="width:100%; height:90px; margin-top:10px;"></div>
+    <script type="text/javascript">
+        (function(){
+          var ad = document.createElement('script');
+          ad.src = "https://www.adsterra.com/your-sdk.js";
+          ad.async = true;
+          document.getElementById('ad-container-5').appendChild(ad);
+        })();
+    </script>
+  </div>
+
+</div>
